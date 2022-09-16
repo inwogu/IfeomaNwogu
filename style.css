@@ -12,6 +12,8 @@ body{
     min-height: 100%;
     padding-bottom: 6.74rem;
     box-sizing: inherit;
+    font-family: 'Roboto';
+    font-size: 16px;
     
 }
 
@@ -25,13 +27,7 @@ button {
     border-radius: 8px;
 }
 
-/* @media screen and (min-width:992px){
-    .navbar{
-        
-    }
-    
-} */
-
+/*-----------Navabr----------- */
 .navbar .navbar-nav .nav-link{
     padding: lem;
 }
@@ -66,6 +62,7 @@ button {
     transition: all 1s ease;
 }
 
+/*--------Bio Page-----------*/
 .flex-container-bio ul {
     list-style: none; /* Remove default bullets */
   }
@@ -93,13 +90,9 @@ button {
   }
 
 /* Styles for website counter container */
-.counter-parent{
-    position : relative; 
-}
 
-.counter-child{
-    position: absolute;
-    bottom: 0; /* set the bottom to 0*/
+.website-counter {
+    display: none;
 }
 .website-counter {
     background-color: #54BAB9;
@@ -126,12 +119,8 @@ button {
     border: 0;
   }
 
-  .carousel-inner carousel.item{
 
-        width: 640px;
-        height: 360px;
-
-  }
+/*----Footer styles------*/  
 
 .section-footer{
     background-color: #002255;
