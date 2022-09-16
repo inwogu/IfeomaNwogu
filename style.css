@@ -89,6 +89,18 @@ button {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
 
+/*--------Carousel------*/
+.carousel-item {
+    width: 100%;
+    height: 300px; /* example */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 /* Styles for website counter container */
 
 .website-counter {
