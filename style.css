@@ -146,3 +146,11 @@ button {
     bottom: 0;
     
 }
+
+/*------footer stick to bottom------*/
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
