@@ -107,6 +107,11 @@ button {
   bottom: initial;
 }
 
+.carousel-item-1 {
+  width: 100%;
+  height: 500px;
+}
+
 
 /* Styles for website counter container */
 
