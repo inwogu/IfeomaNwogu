@@ -102,6 +102,14 @@ button {
     object-fit: cover;
   }
 
+  .carousel-caption {
+   
+    top: 0;
+    bottom:auto;
+ }
+
+
+
 /* Styles for website counter container */
 
 .website-counter {
