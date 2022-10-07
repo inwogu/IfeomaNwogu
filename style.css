@@ -102,6 +102,11 @@ button {
     object-fit: cover;
   }
 
+.carousel-caption{
+  transform: translateY(-98%);
+  bottom: initial;
+}
+
 
 /* Styles for website counter container */
 
