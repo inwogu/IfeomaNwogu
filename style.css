@@ -14,6 +14,8 @@ body{
     box-sizing: inherit;
     font-family: 'Roboto';
     font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
     
 }
 
