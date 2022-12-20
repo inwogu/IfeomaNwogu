@@ -16,261 +16,191 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" />
     <title></title>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <!--navigation bar-->
-    <div class="container-fluid">
+    <!--Home-->
+    <div class="container-fluid p-5">
         <div class="d-flex">
-            <nav class="navbar fixed-top navbar-expand-sm justify-content-center" style="background-color:#54BAB9" >
-                <button 
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    class="navbar-toggler"
-                    aria-controls="navbarNav"
-                    aria-toggle="false"
-                    aria-lable="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav"> 
-                        <button>
-                            <li class="nav-item active">
-                                <a href="index.html" class="nav-link active">
-                                    Home
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="research.html" class="nav-link active">
-                                    Research
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="publications.html" class="nav-link active">
-                                    Publications
-                                </a>
-                            </li>
-                        </button>
-
-                        <button>
-                            <li class="nav-item active">
-                                <a href="teaching.html" class="nav-link active">
-                                    Teaching
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="news.html" class="nav-link active">
-                                    News
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="personal.html" class="nav-link active">
-                                    Personal
-                                </a>
-                            </li>
-                        </button>
-                    </ul>
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <img src="images/Ifeoma-Nwogu11.jpg" srcset="images/Ifeoma-Nwogu11.jpg" alt="my awesome image" class="img-fluid">
                 </div>
-                <!--Search bar//optional-->
-                <!-- <form class="d-flex me-3">
-                    <input type="text" class="form-control me2">
-                    <button type="submit" class="btn btn-outline-info" style="background-color: #002255">Search</button>
-    
-                </form> -->
-            </nav>
-        </div>
-   
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-
-    <!--Publications-->
-    <section>
-        <div class="container-fluid mb-5 pt-5">
-            <div class="d-flex">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="flex-container"> 
-                            <h3> Publications </h3>
-                            <br> 
-                            <p>
-                                My recent publications(* denotes PhD advisee, + denotes MS advisee).
-                                
-                            </p>
-                            
-                            <div class="flex-container-bio mt-3 mb-5">
-                                <p>
-                                    <ul>
-                                        <!-- <h6> 2022 </h6> -->
-                                        <li>
-                                            Zee,T., Lakshmana, M., and <b>Nwogu, I.</b>; Towards Understanding the Behaviors of Pretrained Compressed Convolutional Models
-                                            International Conference on Pattern Recognition : ICPR 2022
-                                        </li>
-                                        <!-- <br> -->
-                                        <!-- <h6> 2021 </h6> -->
-                                        <li>
-                                            +Sharma, S., +Gangadhara, K. G., Xu, F., Solbu Slowe, A., Frank, M. G., and <b>Nwogu, I.</b>; Coupled Systems for Modeling Rapport Between
-                                            Interlocutors.IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021), doi: 10.1109/FG52635.2021.9667067.
-                                        </li>
-                                        <li>
-                                            *Ananthanarayana T., Srivastava, P., Chintha, A., Santha, A., Landy, B.,
-                                            Panaro, J., Webster, A., Kotecha, N. R., Shagan, S., Sarchet, T., Ptucha,
-                                            R., and <b>Nwogu, I.</b> (2021). Deep Learning Methods for Sign Language
-                                            Translation. ACM Trans. Accessible Computing (TACCESS) 14(4)
-                                            22:1{22:30, doi: 10.1145/3477498
-                                        </li>
-                                        <li>
-                                            Wang, R., Ahn, A.Y., Messinger, D.S., and <b>Nwogu, I.</b> (2021). Towards the
-                                            Synthesis of Parent-Infant Facial Interactions. IEEE International
-                                            Conference on Automatic Face and Gesture Recognition(FG 2021), doi:
-                                            10.1109/FG52635.2021.9667019
-                                        </li>
-                                        <li>
-                                            *Ananthanarayana, T., Kotecha, N.R., Srivastava, P., Chaudhary, L.,
-                                            +Wilkins, N. and <b>Nwogu, I.</b> (2021). Dynamic Cross-Feature Fusion for
-                                            American Sign Language Translation. 16th IEEE International Conference
-                                            on Automatic Face and Gesture Recognition (FG 2021), doi:
-                                            10.1109/FG52635.2021.9667027.
-                                        </li>
-                                        <li>
-                                            *Ananthanarayana, T., Chaudhary, L. and <b>Nwogu, I. </b>(2021). Effects of
-                                            Feature Scaling and Fusion on Sign Language Translation. 22nd Annual
-                                            Conference of the International Speech Communication Association,
-                                            (INTERSPEECH 2021) 2292{2296. doi: 110.21437/Interspeech.2021-1863.
-                                        </li>
-                                        <li>
-                                            Carver, W. and <b>Nwogu, I.</b>; Facial Expression Neutralization with StoicNet;
-                                            WACV Workshop on Generation of Human Behavior, 2021
-                                        </li>
-                                        <!-- <br> -->
-                                        <!-- <h6>2020</h6> -->
-                                        <li>
-                                            Gund, M.B., Bharadwaj, A.R., and <b>Nwogu, I.</b>; Interpretable Emotion
-                                            Classification Using Temporal Convolutional Models; International
-                                            Conference on Pattern Recognition: ICPR 2020
-                                        </li>
-                                        <li>
-                                            Kota, V., +Gali, M.G. and <b>Nwogu, I.</b>; A Computational View of the
-                                            Emotional Regulation of Disgust using Multimodal Sensors; IEEE
-                                            Conference on Automatic Face and Gesture: FG 2020
-                                        </li>
-                                        <li>
-                                            +Wilkins, N. and <b>Nwogu, I.</b>; Modeling Global Body Configurations in
-                                            American Sign Language; INTERSPEECH 2020
-                                        </li>
-                                        <li>
-                                            +Wilkins, N. and <b>Nwogu, I.</b>; Analyzing the Extent of Rapport in Groups
-                                            of Triads Via Interactional Synchrony; IEEE International Conference on
-                                                Systems, Man and Cybernetics, 2020: SMC 2020
-                                        </li>
-                                        <li>
-                                            *Tejaswini Ananthanarayana; Sign Language Translation using Deep
-                                            Learning; AAAI Conference on Artificial Intelligence - Doctoral Symposium,
-                                            2020: AAAI 2020 Doctoral Symposium
-                                        </li>
-                                        <!-- <br>
-                                        <h6>2018-2019</h6> -->
-                                        <li>
-                                            Xu, W., Lin, F., Ajay, J., Langan, J., Cavuoto, L., <b>Nwogu, I.</b>, Subryan, H.
-                                            Smart Health 2019 QM-FOrMS: a Portable and Cost-effective Upper
-                                            Extremity Rehabilitation System
-                                        </li>
-                                        <li>
-                                            Passino, B., Bailey, R., <b>Nwogu, I.</b> A Study on the Suppression of
-                                            Amusement IEEE Conference on Automatic Face and Gesture: FG 2018
-                                        </li>
-                                        <li>
-                                            Singh, V. and <b>Nwogu, I</b>. Analyzing Skin Lesions in Dermoscopy Images
-                                            Using Convolutional Neural Networks IEEE International Conference on
-                                            Systems, Man, and Cybernetics: SMC 2018
-                                        </li>
-                                        <li>
-                                            Ku, W. and <b>Nwogu, I</b>. Novel Biometrics: Analysis of an Unattended
-                                            Health Monitoring System IEEE International Conference on Biometrics:
-                                            Theory Applications and Systems: BTAS 2018
-                                        </li>
-                                        <li>
-                                            *Zee, T., +Gali, M.G. and <b>Nwogu, I</b>. Enhancing Human Face Recognition
-                                            with an Interpretable Neural Network IEEE International Conference on
-                                            Computer Vision, Workshop: ICCVW 2019
-                                        </li>
-                                        <li>
-                                            Obot, N., O'Malley, L., <b>Nwogu, I.</b>, Yu, Q., Shi, W., and Guo, X.: From
-                                            Novice to Expert Narratives of Dermatological Disease. ACM Pervasive
-                                            Communications Workshop PerComm 2018
-                                        </li>
-                                        <li>
-                                            Diaz, Y., Alm, C., <b>Nwogu, I.</b> and Bailey, R.: Towards an Affective Video
-                                            Recommendation System. ACM Pervasive Communications Workshop
-                                            PerComm 2018
-                                        </li>
-                                    </ul>
-
-                                </p>
-                                <br>
-                                <br>
-                                <p>
-                                    <a href="https://scholar.google.com/citations?user=pCOmTY0AAAAJ&hl=en" style="text-decoration:none;color:black"> Google Scholar | </a> 
-                                    <a href="https://ieeexplore.ieee.org/author/37541636900" style="text-decoration:none;color:black"> IEEE Xplore | </a>
-                                    <a href="https://dl.acm.org/profile/81339520528" style="text-decoration:none;color:black"> ACM </a>
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <p class="justify-content-end m-2">
+                        <h3>Ifeoma Nwogu</h3>
+                        <i class="fa-solid fa-location-dot" style="color: black"></i>  307, Davis Hall, University at Buffalo
+                        <br>
+                        <i class="fa-solid fa-envelope" style="color: black"></i>  inwogu@buffalo.edu
+                        <br>
+                        <i class="fa fa-phone" style="color:black"></i>  +1 716-645-1557
+                        <br>
+                        <br>
+                        <a href='mailto:inwogu@buffalo.edu' style="color: black;text-decoration: none;"><i class="fa-solid fa-envelope"></i></a> &nbsp; &nbsp;
+                        <a href='https://scholar.google.com/citations?user=pCOmTY0AAAAJ&hl=en' style="color: black;text-decoration: none;"><i class="fa-solid fa-user-graduate"></i></a> &nbsp; &nbsp;
+                        <a href="https://www.linkedin.com/in/ifeoma-nwogu-7790a34/" style="color:black ;text-decoration: none;"><i class="fa-brands fa-linkedin"></i></a> &nbsp; &nbsp;
+                        <a href='https://twitter.com/IfeomaNwogu5' style="color: black; text-decoration: none;"><i class="fa-brands fa-twitter"></i></a> &nbsp; &nbsp;
+                        <i class="fa-solid fa-location-dot" style="color: black"></i>  University at Buffalo
+                    </p>
+                </div>
+                <nav class="navbar navbar-expand-sm justify-content-center col-md-8 m-3" style="background-color:#54BAB9;">
+                    <button 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        class="navbar-toggler"
+                        aria-controls="navbarNav"
+                        aria-toggle="false"
+                        aria-lable="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav"> 
+                                <li class="nav-item active m-1">
+                                    <a href="index.html" class="nav-link active">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item m-1">
+                                    <a href="research.html" class="nav-link active">
+                                        Research
+                                    </a>
+                                </li>
+                                <li class="nav-item m-1">
+                                    <a href="publications.html" class="nav-link active">
+                                        Publications
+                                    </a>
+                                </li>
+                                <li class="nav-item m-1">
+                                    <a href="teaching.html" class="nav-link active">
+                                        Teaching
+                                    </a>
+                                </li>
+                                <li class="nav-item m-1">
+                                    <a href="personal.html" class="nav-link active">
+                                        Personal
+                                    </a>
+                                </li>
+                        </ul>
                     </div>
-                </div>
-
+                </nav>
+                <p class="col-md-8"> Few of my recent publications</p>
+                <ul class="col-md-8">
+                    <!-- <h6> 2022 </h6> -->
+                    <li>
+                        Zee,T., Lakshmana, M., and <b>Nwogu, I.</b>; Towards Understanding the Behaviors of Pretrained Compressed Convolutional Models
+                        International Conference on Pattern Recognition : ICPR 2022
+                    </li>
+                    <!-- <br> -->
+                    <!-- <h6> 2021 </h6> -->
+                    <li>
+                        +Sharma, S., +Gangadhara, K. G., Xu, F., Solbu Slowe, A., Frank, M. G., and <b>Nwogu, I.</b>; Coupled Systems for Modeling Rapport Between
+                        Interlocutors.IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021), doi: 10.1109/FG52635.2021.9667067.
+                    </li>
+                    <li>
+                        *Ananthanarayana T., Srivastava, P., Chintha, A., Santha, A., Landy, B.,
+                        Panaro, J., Webster, A., Kotecha, N. R., Shagan, S., Sarchet, T., Ptucha,
+                        R., and <b>Nwogu, I.</b> (2021). Deep Learning Methods for Sign Language
+                        Translation. ACM Trans. Accessible Computing (TACCESS) 14(4)
+                        22:1{22:30, doi: 10.1145/3477498
+                    </li>
+                    <li>
+                        Wang, R., Ahn, A.Y., Messinger, D.S., and <b>Nwogu, I.</b> (2021). Towards the
+                        Synthesis of Parent-Infant Facial Interactions. IEEE International
+                        Conference on Automatic Face and Gesture Recognition(FG 2021), doi:
+                        10.1109/FG52635.2021.9667019
+                    </li>
+                    <li>
+                        *Ananthanarayana, T., Kotecha, N.R., Srivastava, P., Chaudhary, L.,
+                        +Wilkins, N. and <b>Nwogu, I.</b> (2021). Dynamic Cross-Feature Fusion for
+                        American Sign Language Translation. 16th IEEE International Conference
+                        on Automatic Face and Gesture Recognition (FG 2021), doi:
+                        10.1109/FG52635.2021.9667027.
+                    </li>
+                    <li>
+                        *Ananthanarayana, T., Chaudhary, L. and <b>Nwogu, I. </b>(2021). Effects of
+                        Feature Scaling and Fusion on Sign Language Translation. 22nd Annual
+                        Conference of the International Speech Communication Association,
+                        (INTERSPEECH 2021) 2292{2296. doi: 110.21437/Interspeech.2021-1863.
+                    </li>
+                    <li>
+                        Carver, W. and <b>Nwogu, I.</b>; Facial Expression Neutralization with StoicNet;
+                        WACV Workshop on Generation of Human Behavior, 2021
+                    </li>
+                    <!-- <br> -->
+                    <!-- <h6>2020</h6> -->
+                    <li>
+                        Gund, M.B., Bharadwaj, A.R., and <b>Nwogu, I.</b>; Interpretable Emotion
+                        Classification Using Temporal Convolutional Models; International
+                        Conference on Pattern Recognition: ICPR 2020
+                    </li>
+                    <li>
+                        Kota, V., +Gali, M.G. and <b>Nwogu, I.</b>; A Computational View of the
+                        Emotional Regulation of Disgust using Multimodal Sensors; IEEE
+                        Conference on Automatic Face and Gesture: FG 2020
+                    </li>
+                    <li>
+                        +Wilkins, N. and <b>Nwogu, I.</b>; Modeling Global Body Configurations in
+                        American Sign Language; INTERSPEECH 2020
+                    </li>
+                    <li>
+                        +Wilkins, N. and <b>Nwogu, I.</b>; Analyzing the Extent of Rapport in Groups
+                        of Triads Via Interactional Synchrony; IEEE International Conference on
+                            Systems, Man and Cybernetics, 2020: SMC 2020
+                    </li>
+                    <li>
+                        *Tejaswini Ananthanarayana; Sign Language Translation using Deep
+                        Learning; AAAI Conference on Artificial Intelligence - Doctoral Symposium,
+                        2020: AAAI 2020 Doctoral Symposium
+                    </li>
+                    <!-- <br>
+                    <h6>2018-2019</h6> -->
+                    <li>
+                        Xu, W., Lin, F., Ajay, J., Langan, J., Cavuoto, L., <b>Nwogu, I.</b>, Subryan, H.
+                        Smart Health 2019 QM-FOrMS: a Portable and Cost-effective Upper
+                        Extremity Rehabilitation System
+                    </li>
+                    <li>
+                        Passino, B., Bailey, R., <b>Nwogu, I.</b> A Study on the Suppression of
+                        Amusement IEEE Conference on Automatic Face and Gesture: FG 2018
+                    </li>
+                    <li>
+                        Singh, V. and <b>Nwogu, I</b>. Analyzing Skin Lesions in Dermoscopy Images
+                        Using Convolutional Neural Networks IEEE International Conference on
+                        Systems, Man, and Cybernetics: SMC 2018
+                    </li>
+                    <li>
+                        Ku, W. and <b>Nwogu, I</b>. Novel Biometrics: Analysis of an Unattended
+                        Health Monitoring System IEEE International Conference on Biometrics:
+                        Theory Applications and Systems: BTAS 2018
+                    </li>
+                    <li>
+                        *Zee, T., +Gali, M.G. and <b>Nwogu, I</b>. Enhancing Human Face Recognition
+                        with an Interpretable Neural Network IEEE International Conference on
+                        Computer Vision, Workshop: ICCVW 2019
+                    </li>
+                    <li>
+                        Obot, N., O'Malley, L., <b>Nwogu, I.</b>, Yu, Q., Shi, W., and Guo, X.: From
+                        Novice to Expert Narratives of Dermatological Disease. ACM Pervasive
+                        Communications Workshop PerComm 2018
+                    </li>
+                    <li>
+                        Diaz, Y., Alm, C., <b>Nwogu, I.</b> and Bailey, R.: Towards an Affective Video
+                        Recommendation System. ACM Pervasive Communications Workshop
+                        PerComm 2018
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <p class="col-md-8">
+                    <a href="https://scholar.google.com/citations?user=pCOmTY0AAAAJ&hl=en" style="text-decoration:none;color:black"> <b>Google Scholar</b> | </a> 
+                    <a href="https://ieeexplore.ieee.org/author/37541636900" style="text-decoration:none;color:black"> <b>IEEE Xplore</b> | </a>
+                    <a href="https://dl.acm.org/profile/81339520528" style="text-decoration:none;color:black"> <b>ACM</b> </a>
+                </p>
             </div>
         </div>
-
-    </section>
-
-    <!--footer-->
-    <section class="section-footer mt-5 p-5">
-        <div class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-md-6 text-light">
-                    
-                        <p style="color: #f5f5f4;">
-                            <br>
-                            <br>
-                            <br>
-                            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Ifeoma Nwogu. 2022. All rights reserved 
-                            <br>
-                            Copyright Infrigement. Privacy statement 
-                        </p>
-                       
-                        
-                </div>
-                <div class="col-md-6 text-light">
-                   
-                        <p>
-                            <a style="color: #f5f5f4;"> Dr. Ifeoma Nwogu </a> <br>
-                            305, Davis Hall, Buffalo, NY 14260 <br>
-                            Phone: +1 (716) 645-1557 <br>
-                            Email: inwogu [@] buffalo [DOT] edu <br>
-                            <a href="https://scholar.google.com/citations?user=pCOmTY0AAAAJ&hl=en" style="color: #f5f5f4; text-decoration: none;"> Google Scholar </a> 
-                            <a href="https://www.linkedin.com/in/ifeoma-nwogu-7790a34/" style="color: #f5f5f4; text-decoration: none;"> | LinkedIn </a> 
-                            <a href='https://twitter.com/IfeomaNwogu5' style="color: #f5f5f4; text-decoration: none;"> | Twitter </a>
-                            
-                        </p>
-                        
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

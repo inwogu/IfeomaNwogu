@@ -64,32 +64,19 @@ button {
     transition: all 1s ease;
 }
 
-/*--------Bio Page-----------*/
+/* --------Bio Page-----------
 .flex-container-bio ul {
     list-style: none; /* Remove default bullets */
-  }
+  /* } */
   
-.flex-container-bio ul li::before {
+/* .flex-container-bio ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #002255; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-
-.flex-container-publications ul {
-    list-style: none; /* Remove default bullets */
-  }
-  
-.flex-container-bio ul li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #002255; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+    /* color: #002255; /* Change the color */
+    /* font-weight: bold; /* If you want it to be bold */
+    /* display: inline-block; /* Needed to add space between the bullet and the text */
+    /* width: 1em; /* Also needed for space (tweak if needed) */
+    /* margin-left: -1em; /* Also needed for space (tweak if needed) */
+  /* } */
 
 /*--------Carousel------*/
 .carousel-item {
